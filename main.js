@@ -64,7 +64,6 @@ function showMovies(data) {
   });
 }
 function showFavs(data) {
-  //   (document.querySelector(".moviesFav").innerHTML = ""),
   data.forEach((movie) => {
     const movieList = document.createElement("div");
     movieList.classList.add("movie");
